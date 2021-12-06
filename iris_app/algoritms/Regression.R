@@ -7,7 +7,7 @@ library(plumber)
 #Подключение к базе данных
 con <- dbConnect(RSQLite:: SQLite(), "/db")
 
-#Чтение таблицы из базы данных
+#Чтение таблицы из базы данных 
 table <- dbReadTable(con, "Data_iris")
 
 
